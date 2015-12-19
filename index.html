@@ -125,8 +125,9 @@
 				<div  style="margin-top: 150px" id="txt1"></div>
 				<div id="txt2"></div>
 				<div id="txt3"></div>
-				<div style="margin-top: 100px"  id="txt4"></div>
-				<div id="txt5"></div>
+				<div id="txt4"></div>
+				<div style="margin-top: 100px"  id="txt5"></div>
+				
 
 				
 
@@ -165,17 +166,27 @@
 
 			var os = navigator.platform;
 
-			document.getElementById('txt3').innerHTML = '<p>и казалось что это невозможно, потому что, "почему то" НИкто не делает</p>';
+			document.getElementById('txt3').innerHTML = '<p>и казалось чем то  невозможным....</p>';
 
 
-		}		
+		}	
 
-		setTimeout( txt4, 16000);
+		setTimeout( txt4, 13000);
 		function txt4 (argument) {
 
 			var os = navigator.platform;
 
-			document.getElementById('txt4').innerHTML = '<h1>ТАК!!!</h1>';
+			document.getElementById('txt4').innerHTML = '<p>Почему НИкто не делает</p>';
+
+
+		}		
+
+		setTimeout( txt5, 16000);
+		function txt5 (argument) {
+
+			var os = navigator.platform;
+
+			document.getElementById('txt5').innerHTML = ' <h1>вот ТАК!!!??</h1>';
 
 			var track = new Audio();
 			track.src = "Imagine Dragons - Welcome to the new age.mp3";
