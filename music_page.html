@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8">
+	<title>JustMusic</title>
+	<link rel="stylesheet" type="text/css" href="css/resets.css">
+	<style>
+
+		@font-face {
+			font-family: "Impact";
+			src: url("fonts/impact_[allfont.ru].ttf");
+
+			font-style: normal;
+			font-weight: normal;
+		}
+
+		@font-face {
+			font-family: "Ristretto Bold";
+			src: url("fonts/Ristretto_Pro/RistrettoPro-Bold.otf");
+
+			font-style: normal;
+			font-weight: normal;
+		}
+
+		@font-face {
+			font-family: "Ristretto Medium";
+			src: url("fonts/Ristretto_Pro/RistrettoPro-Medium.otf");
+
+			font-style: normal;
+			font-weight: normal;
+		}
+
+		html {
+
+			height: 100%;
+			background: url(main_index_img/html_bg2.png);
+
+		}
+
+
+		html {height: 100%;}
+		body {
+			height: 100%;
+			margin: 0 auto;
+			width: 100%; 
+			max-width: 900px;
+			-webkit-box-shadow: 0px 3px 17px 5px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 3px 17px 5px rgba(0,0,0,0.75);
+			box-shadow: 0px 3px 17px 5px rgba(0,0,0,0.75);
+			background: url(main_index_img/body2_bg.png);
+			position: relative;
+			padding: 20px;
+			border: 1px solid #675e4d;
+		}
+
+		#body_container {
+			background: url(main_index_img/body_bg.png);
+			height: 100%;
+			width: 100%;
+			position: relative;
+			-webkit-box-shadow: 0px 2px 5px 3px rgba(56,46,34,1);
+			-moz-box-shadow: 0px 2px 5px 3px rgba(56,46,34,1);
+			box-shadow: 0px 2px 5px 3px rgba(56,46,34,1);
+			padding: 10px;
+
+
+
+		}
+
+		#border_div {
+			border: 1px solid #dccea9;
+			height: 100%;
+			width: 100%;
+
+		}
+
+		#content {
+			max-width: 500px;
+			width: 100%;
+			position: relative;
+			margin: auto;
+		}
+		p {
+			font-size: 20px;
+			color: #635D5D;
+			font-family: 'Ristretto Medium';
+			text-align: center;
+
+			
+			position: relative;
+			margin-top: 20px;
+			line-height: 20px;
+
+		}
+
+		h1 {
+
+			font-size: 150px;
+			color: #635D5D;
+			font-family: 'Ristretto Bold';
+			text-align: center;
+
+			
+			position: relative;
+			margin-top: 20px;
+			line-height: 20px;
+
+
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="body_container">
+
+
+		
+		<div id="border_div">
+			<div id="content">
+				<!-- //ANY CONTENT -->
+				<!-- //ANY CONTENT -->
+				<!-- //ANY CONTENT -->
+				<!-- //ANY CONTENT -->
+				<div  style="margin-top: 150px" id="txt1"></div>
+				<div id="txt2"></div>
+				<div id="txt3"></div>
+				<div style="margin-top: 100px"  id="txt4"></div>
+				<div id="txt5"></div>
+
+				
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<script>
+
+		setTimeout( txt1, 3000);
+		function txt1 (argument) {
+
+			var os = navigator.platform;
+
+			document.getElementById('txt1').innerHTML = '<p>меня сильно приводило в недоумение</p>';
+
+
+		}
+
+		setTimeout( txt2, 6000);
+		function txt2 (argument) {
+
+			var os = navigator.platform;
+
+			document.getElementById('txt2').innerHTML = '<p> до сих пор</p>';
+
+
+		}	
+
+
+		setTimeout( txt3, 10000);
+		function txt3 (argument) {
+
+			var os = navigator.platform;
+
+			document.getElementById('txt3').innerHTML = '<p>и казалось что это невозможно, потому что, "почему то" НИкто не делает</p>';
+
+
+		}		
+
+		setTimeout( txt4, 16000);
+		function txt4 (argument) {
+
+			var os = navigator.platform;
+
+			document.getElementById('txt4').innerHTML = '<h1>ТАК!!!</h1>';
+
+			var track = new Audio();
+			track.src = "Imagine Dragons - Welcome to the new age.mp3";
+			track.play();
+
+
+
+		}	
+
+
+
+		
+		
+
+		
+
+	</script>
+
+
+
+
+
+</body>
+</html>
